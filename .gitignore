@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment
+.env
+venv/
+
+# Personal files
+# 用户根据需要创建：
+# config.yaml          # 你的健康档案
+# YYYY-MM-DD.md        # 每日记录

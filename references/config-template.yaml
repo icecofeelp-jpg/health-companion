@@ -1,0 +1,77 @@
+# 用户健康档案模板
+# 复制此文件到 ~/.hermes/health-records/config.yaml 并修改对应内容
+
+name: 你的名字
+age: 40+  # 或具体年龄
+gender: 女  # 或男
+height: 174cm  # 你的身高
+current_weight: 70kg  # 当前体重
+target_body_fat: 25%  # 目标体脂率
+current_body_fat: 33%  # 当前体脂率（如有测量）
+
+health_goal:
+  primary: 降低体脂率  # 主要目标
+  secondary:
+    - 养成健康饮食习惯
+    - 增加运动频率
+    - 改善睡眠质量
+    - 补充必要营养素
+
+# 饮食偏好和禁忌
+diet_preferences: |
+  早餐：xxx
+  午餐：xxx
+  晚餐：xxx
+diet_restrictions: |
+  - 过敏：xxx
+  - 不吃：xxx
+
+# 营养补剂
+daily_supplements:
+  - name: 复合维生素
+    dosage: 1粒/天
+    time: 早餐时
+    notes: 如善存、金施康等
+  - name: 鱼油
+    dosage: 1粒/天
+    time: 随餐
+    notes: Omega-3抗炎
+  - name: 钙片
+    dosage: 500mg/天
+    time: 睡前
+    notes: 40+女性建议补
+
+# 运动目标
+exercise_target:
+  frequency: 每周3-5次
+  duration: 每次30分钟以上
+  types:
+    - 快走
+    - 跑步
+    - 游泳
+    - 瑜伽
+
+# 睡眠目标
+sleep_target:
+  hours: 7-8小时
+  bedtime: "22:30"
+  wake_time: "06:30"
+
+# 喝水目标
+water_target:
+  daily_ml: 1500-2000
+  cups: 8杯
+
+# 提醒时间（可根据个人习惯调整）
+reminders:
+  morning: "09:00"
+  lunch: "12:30"
+  afternoon: "15:00"
+  evening: "18:30"
+  summary: "20:30"
+  bedtime: "22:30"
+  weekly_report: "周日21:00"
+
+# 备注
+notes: |
+  其他需要记录的信息：
